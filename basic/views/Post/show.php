@@ -4,14 +4,14 @@
 $js = <<<JS
     $('#btn').on('click', function() {
         $.ajax({
-            url: 'index.php?r=post/index',
+            url: 'index.php?r-post/index',
             data: {test:'123'},
             type: 'GET',
             success: function(res) {
                 console.log(res);  
             },
             error: function(){
-                alert('Error');
+                alert('Error!!!');
             }
         }) ; 
     });
