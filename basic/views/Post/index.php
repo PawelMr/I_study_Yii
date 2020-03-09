@@ -1,3 +1,2 @@
 <h1>Test</h1>
-<?php
-//debag(yii::$app);
+<?//=$aj['test'] //var_dump($aj) ?>
